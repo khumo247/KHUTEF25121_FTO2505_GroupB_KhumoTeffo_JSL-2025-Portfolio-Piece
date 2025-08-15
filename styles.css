@@ -208,3 +208,29 @@ html[data-theme="dark"] .theme-card{ background:#2B2C37; }
 }
 .add-fab:hover{ background:var(--primary-pressed); }
 
+
+/* Columns */
+.columns{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:22px; padding:24px; }
+.column h3{
+  margin:0 0 14px; color:var(--muted); font-size:12px; letter-spacing:.18em; font-weight:700;
+  display:flex; align-items:center; gap:8px;
+}
+.status-dot{ width:10px; height:10px; border-radius:50%; display:inline-block; }
+.status-dot.todo{ background:var(--todo); }
+.status-dot.doing{ background:var(--doing); }
+.status-dot.done{ background:var(--done); }
+
+
+
+
+.tasks-container{ display:flex; flex-direction:column; gap:14px; }
+
+
+
+
+.task-div{
+  background:var(--surface); border:1px solid var(--line);
+  border-radius:12px; padding:16px; box-shadow: 0 2px 4px var(--elev);
+  cursor:pointer; font-weight:700;
+}
+.task-div:hover{ outline:2px solid rgba(99,95,199,.25); }
