@@ -149,3 +149,18 @@ html[data-theme="dark"] .theme-card{ background:#2B2C37; }
 }
 .switch input:checked + .slider{ background:var(--primary); }
 .switch input:checked + .slider:before{ transform: translateX(24px); }
+
+
+/* Hide sidebar button */
+.hide-sidebar-btn{
+  border:none; width:100%;
+  padding:12px 16px; border-radius:8px; cursor:pointer;
+  color:var(--muted); background:transparent; font-weight:700;
+  display:flex; align-items:center; gap:10px; justify-content:center;
+}
+.hide-sidebar-btn:hover{ color:var(--primary); }
+
+
+
+
+.nope{ display:inline-block; transform: translateY(1px); }
