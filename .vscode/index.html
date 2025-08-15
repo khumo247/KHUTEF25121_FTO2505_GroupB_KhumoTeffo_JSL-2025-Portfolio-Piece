@@ -44,3 +44,36 @@
         </button>
       </div>
     </aside>
+    <!-- MAIN -->
+    <main class="main" id="main">
+      <header class="topbar">
+        <div class="left">
+          <button class="burger" id="burger" aria-label="Open boards"></button>
+          <h1 class="board-name">Launch Career</h1>
+        </div>
+        <div class="right">
+          <button id="add-task-btn" class="add-btn desktop">+ Add New Task</button>
+          <button id="add-task-fab" class="add-fab mobile" aria-label="Add task">+</button>
+        </div>
+      </header>
+
+      <section class="columns">
+        <div class="column" data-status="todo">
+          <h3><span class="status-dot todo"></span> <span id="toDoText">TODO (0)</span></h3>
+          <div class="tasks-container"></div>
+        </div>
+        <div class="column" data-status="doing">
+          <h3><span class="status-dot doing"></span> <span id="doingText">DOING (0)</span></h3>
+          <div class="tasks-container"></div>
+        </div>
+        <div class="column" data-status="done">
+          <h3><span class="status-dot done"></span> <span id="doneText">DONE (0)</span></h3>
+          <div class="tasks-container"></div>
+        </div>
+      </section>
+
+      <button id="show-sidebar" class="show-sidebar-btn" aria-label="Show sidebar">👀</button>
+    </main>
+  </div>
+</body>
+</html>
