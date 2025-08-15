@@ -310,3 +310,19 @@ textarea{ resize:vertical; min-height:120px; }
   .add-fab.mobile{ display:inline-flex; }
   .columns{ grid-template-columns:1fr; }
 }
+
+
+/* Mobile drawer */
+.mobile-drawer{
+  position:fixed; inset:0; background:rgba(0,0,0,.45); display:none; align-items:flex-start; justify-content:center; z-index:60;
+}
+.mobile-drawer.open{ display:flex; }
+.drawer-panel{
+  width:min(640px,92vw); margin-top:72px; background:var(--surface); border-radius:12px; padding:16px;
+  box-shadow:0 12px 36px rgba(0,0,0,.35); border:1px solid var(--line);
+}
+.drawer-head{ display:flex; align-items:center; justify-content:space-between; }
+.drawer-close{
+  border:none; background:transparent; color:#E66C6C; font-size:28px; cursor:pointer;
+}
+.drawer-theme{ margin-top:16px; }
