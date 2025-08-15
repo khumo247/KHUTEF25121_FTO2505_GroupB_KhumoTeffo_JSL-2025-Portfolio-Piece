@@ -1,0 +1,54 @@
+/* ---------- Base + Theme Tokens ---------- */
+:root{
+  --bg: #F4F7FD;
+  --surface: #FFFFFF;
+  --elev: rgba(0,0,0,.06);
+  --text: #111827;
+  --muted: #828FA3;
+  --muted-2: #A8B0C3;
+  --line: #E4E7F0;
+
+
+
+
+  --primary: #635FC7;
+  --primary-pressed:#554fcc;
+  --danger:#EA5555;
+  --danger-pressed:#D14343;
+
+
+
+
+  --todo:#49C4E5;
+  --doing:#8471F2;
+  --done:#67E2AE;
+
+
+
+
+  --radius:14px;
+  --radius-pill:999px;
+}
+
+
+
+
+html[data-theme="dark"]{
+  --bg:#20212C;
+  --surface:#2B2C37;
+  --elev:rgba(0,0,0,.35);
+  --text:#FFFFFF;
+  --muted:#828FA3;
+  --muted-2:#717A95;
+  --line:#3E3F4E;
+
+
+
+
+  --primary:#635FC7;
+  --primary-pressed:#7773ff;
+  --danger:#EA5555;
+  --danger-pressed:#ff6a6a;
+}
+
+
