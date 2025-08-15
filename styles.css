@@ -234,3 +234,13 @@ html[data-theme="dark"] .theme-card{ background:#2B2C37; }
   cursor:pointer; font-weight:700;
 }
 .task-div:hover{ outline:2px solid rgba(99,95,199,.25); }
+
+
+
+/* Floating show sidebar button (desktop only) */
+.show-sidebar-btn{
+  position:fixed; left:0; bottom:24px; transform:translateX(-4px);
+  border:none; background:var(--primary); color:#fff; padding:10px 12px;
+  border-radius:0 var(--radius-pill) var(--radius-pill) 0; cursor:pointer; display:none;
+}
+.show-sidebar-btn:hover{ background:var(--primary-pressed); }
