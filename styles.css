@@ -69,3 +69,12 @@ body{
 }
 
 
+/* SIDEBAR */
+.sidebar{
+  width: 300px;
+  min-width:300px;
+  background:var(--surface);
+  border-right:1px solid var(--line);
+  display:flex; flex-direction:column; justify-content:space-between;
+  transition: transform .3s ease;
+}
