@@ -10,3 +10,37 @@
   <link rel="stylesheet" href="styles.css" />
   <script defer src="./scripts.js"></script>
 </head>
+<body>
+  <div class="app">
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-top">
+        <div class="logo">
+          <div class="logo-bars">
+            <span></span><span></span><span></span>
+          </div>
+          <span class="logo-text">kanban</span>
+        </div>
+        <div class="boards">
+          <p class="boards-title">ALL BOARDS (1)</p>
+          <button class="board active">
+            <span class="board-dot"></span>
+            Launch Career
+          </button>
+        </div>
+      </div>
+      <div class="sidebar-bottom">
+        <div class="theme-card">
+          <span class="sun">☀️</span>
+          <label class="switch">
+            <input type="checkbox" id="theme-switch">
+            <span class="slider"></span>
+          </label>
+          <span class="moon">🌚</span>
+        </div>
+        <button id="hide-sidebar" class="hide-sidebar-btn">
+          <span class="nope">🚫</span>
+          Hide Sidebar
+        </button>
+      </div>
+    </aside>
