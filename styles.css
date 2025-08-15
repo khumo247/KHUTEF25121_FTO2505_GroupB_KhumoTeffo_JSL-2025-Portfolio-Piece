@@ -244,3 +244,61 @@ html[data-theme="dark"] .theme-card{ background:#2B2C37; }
   border-radius:0 var(--radius-pill) var(--radius-pill) 0; cursor:pointer; display:none;
 }
 .show-sidebar-btn:hover{ background:var(--primary-pressed); }
+
+
+
+/* ---------- Modals ---------- */
+.modal-overlay{
+  position:fixed; inset:0; background:rgba(0,0,0,.45);
+  display:flex; align-items:center; justify-content:center; z-index:50;
+}
+.modal{
+  width:min(640px,92vw); background:var(--surface); color:var(--text);
+  border-radius:12px; box-shadow:0 10px 36px rgba(0,0,0,.35); border:1px solid var(--line);
+  padding:24px;
+}
+.modal-header{
+  display:flex; align-items:center; justify-content:space-between; margin-bottom:18px;
+}
+.modal-header h2{ margin:0; font-size:28px; }
+.modal-close-btn{
+  border:none; background:transparent; font-size:26px; color:#E66C6C; cursor:pointer; line-height:1;
+}
+
+
+
+
+label{ display:block; color:var(--muted); font-weight:700; margin:16px 0 8px; }
+input[type="text"], textarea, select{
+  width:100%; border:1px solid var(--line); background:#fff; color:#111827;
+  border-radius:8px; padding:14px 12px; font:inherit; outline:none;
+}
+html[data-theme="dark"] input[type="text"],
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select{
+  background:#efeff2; color:#111827; /* light fields in dark as per figma */
+}
+
+
+
+
+textarea{ resize:vertical; min-height:120px; }
+
+
+
+
+.modal-actions{
+  display:flex; gap:16px; margin-top:22px;
+}
+.btn{
+  border:none; border-radius:28px; font-weight:800; padding:14px 18px; cursor:pointer;
+  height:56px; display:flex; align-items:center; justify-content:center; flex:1;
+}
+.btn.primary{ background:var(--primary); color:#fff; }
+.btn.primary:hover{ background:var(--primary-pressed); }
+.btn.danger{ background:var(--danger); color:#fff; }
+.btn.danger:hover{ background:var(--danger-pressed); }
+.btn.ghost{ background:#E9ECF6; color:#3B3F55; }
+.btn.ghost:hover{ filter:brightness(.97); }
+
+
