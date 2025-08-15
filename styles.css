@@ -78,3 +78,6 @@ body{
   display:flex; flex-direction:column; justify-content:space-between;
   transition: transform .3s ease;
 }
+
+
+.sidebar.hidden{ transform: translateX(-100%); }
