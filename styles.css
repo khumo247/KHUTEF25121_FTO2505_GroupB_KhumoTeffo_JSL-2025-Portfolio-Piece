@@ -326,3 +326,15 @@ textarea{ resize:vertical; min-height:120px; }
   border:none; background:transparent; color:#E66C6C; font-size:28px; cursor:pointer;
 }
 .drawer-theme{ margin-top:16px; }
+
+
+/* === Priority Dot Styles === */
+/* Priority dots */
+.priority-badge {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
