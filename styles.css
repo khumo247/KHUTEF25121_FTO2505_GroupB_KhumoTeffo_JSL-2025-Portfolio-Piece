@@ -338,3 +338,19 @@ textarea{ resize:vertical; min-height:120px; }
   margin-right: 8px;
   flex-shrink: 0;
 }
+
+
+/* Colors for priorities */
+.priority-low {
+  background-color: #4CAF50; /* green */
+}
+
+
+.priority-medium {
+  background-color: #FFC107; /* yellow */
+}
+
+
+.priority-high {
+  background-color: #F44336; /* red */
+}
