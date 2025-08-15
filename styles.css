@@ -302,3 +302,11 @@ textarea{ resize:vertical; min-height:120px; }
 .btn.ghost:hover{ filter:brightness(.97); }
 
 
+/* ---------- Mobile & Responsive ---------- */
+@media (max-width: 1023px){
+  .sidebar{ display:none; }
+  .burger{ display:inline-block; }
+  .add-btn.desktop{ display:none; }
+  .add-fab.mobile{ display:inline-flex; }
+  .columns{ grid-template-columns:1fr; }
+}
