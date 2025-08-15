@@ -1,0 +1,80 @@
+🚀 Kanban Board
+
+A modern, responsive Kanban Board web app to manage tasks efficiently. Supports adding, editing, deleting tasks, priority indicators, and light/dark theme switching. All data is stored locally using localStorage.
+
+🌟 Features
+
+Three Columns: TODO, DOING, DONE
+
+Task Management: Add, edit, delete tasks with title, description, status, and priority
+
+Priority Indicators:
+
+Low 🟢
+
+Medium 🟡
+
+High 🔴
+
+Responsive Design: Mobile-friendly layout with floating action buttons
+
+Theme Switch: Light/Dark mode with saved preference
+
+Local Storage: Tasks persist across browser sessions
+
+
+No backend needed. Everything runs in the browser.
+
+🛠 Usage
+
+Add a Task: Click "+ Add New Task" (desktop) or the floating "+" (mobile). Fill details and click Create Task.
+
+Edit a Task: Click a task card, modify details, click Save Changes.
+
+Delete a Task: Open task → click Delete Task.
+
+Toggle Theme: Use the sidebar switch to change between light and dark modes.
+
+Sidebar Toggle: Hide or show sidebar on desktop using Hide Sidebar / 👀 button.
+
+📁 File Structure
+kanban-board/
+│
+├─ index.html        # HTML layout
+├─ styles.css        # Styles, themes, and responsive design
+├─ scripts.js        # Task logic, modals, and theme management
+└─ README.md         # Project documentation
+
+⚡ Technologies
+
+HTML5 – Semantic structure
+
+CSS3 – Styling, responsive design, themes
+
+JavaScript (ES6+) – Task handling, modals, localStorage, and theme toggle
+
+🔑 Key JS Features
+
+Dynamic task rendering in respective columns
+
+LocalStorage persistence for tasks and theme
+
+Modal windows for adding and editing tasks
+
+Event listeners for sidebar, task cards, and theme toggle
+
+Automatic theme detection (system preference)
+
+🚀 Future Improvements
+
+Drag-and-drop tasks
+
+Multiple boards support
+
+Task due dates & reminders
+
+Export/import tasks as JSON
+
+📄 License
+
+MIT License – free to use and modify.
