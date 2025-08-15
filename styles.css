@@ -354,3 +354,47 @@ textarea{ resize:vertical; min-height:120px; }
 .priority-high {
   background-color: #F44336; /* red */
 }
+
+
+/* Make the dot and title align nicely */
+.task-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+
+.task-header {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between dot and text */
+}
+
+
+.task-title {
+  flex: 1; /* ensures title takes up remaining space */
+  font-weight: 700;
+}
+
+
+.priority-badge {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 1px; /* fine-tune vertical centering */
+}
+
+
+/* Priority colors */
+.priority-low {
+  background-color: #4CAF50;
+}
+.priority-medium {
+  background-color: #FFC107;
+}
+.priority-high {
+  background-color: #F44336;
+}
+
