@@ -54,7 +54,6 @@ html[data-theme="dark"]{
 
 
 
-
 /* ---------- Reset ---------- */
 *{ box-sizing: border-box; }
 html,body{ height:100%; }
@@ -63,4 +62,10 @@ body{
   font-family:'Plus Jakarta Sans',system-ui,Segoe UI,Roboto,Arial,sans-serif;
   color:var(--text);
   background:var(--bg);
+}
+
+
+/* ---------- Layout ---------- */
+.app{
+  display:flex; height:100%;
 }
