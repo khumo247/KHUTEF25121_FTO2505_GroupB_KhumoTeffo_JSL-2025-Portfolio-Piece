@@ -52,3 +52,15 @@ html[data-theme="dark"]{
 }
 
 
+
+
+
+/* ---------- Reset ---------- */
+*{ box-sizing: border-box; }
+html,body{ height:100%; }
+body{
+  margin:0;
+  font-family:'Plus Jakarta Sans',system-ui,Segoe UI,Roboto,Arial,sans-serif;
+  color:var(--text);
+  background:var(--bg);
+}
