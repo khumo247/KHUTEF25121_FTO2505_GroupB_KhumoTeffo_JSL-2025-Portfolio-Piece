@@ -194,3 +194,17 @@ html[data-theme="dark"] .theme-card{ background:#2B2C37; }
 }
 .burger:before{ top:0; } .burger:after{ bottom:0; } .burger span{ top:50%; transform:translateY(-50%); }
 
+
+
+/* Add buttons */
+.add-btn{
+  border:none; background:var(--primary); color:#fff; font-weight:700;
+  padding:12px 18px; border-radius:var(--radius-pill); cursor:pointer;
+}
+.add-btn:hover{ background:var(--primary-pressed); }
+.add-fab{
+  width:42px; height:42px; border-radius:50%; border:none; background:var(--primary); color:#fff;
+  font-size:22px; font-weight:700; display:none; align-items:center; justify-content:center; cursor:pointer;
+}
+.add-fab:hover{ background:var(--primary-pressed); }
+
