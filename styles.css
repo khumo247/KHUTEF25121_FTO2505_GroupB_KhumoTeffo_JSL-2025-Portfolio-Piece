@@ -126,3 +126,11 @@ body{
 
 .sidebar-bottom{ padding:14px; display:flex; flex-direction:column; gap:14px; }
 
+/* Theme card */
+.theme-card{
+  background: #F4F7FD;
+  border-radius:8px;
+  padding:12px 16px;
+  display:flex; justify-content:center; align-items:center; gap:18px;
+}
+html[data-theme="dark"] .theme-card{ background:#2B2C37; }
